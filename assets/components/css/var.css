@@ -1,0 +1,36 @@
+﻿@font-face {
+	font-family: ;
+	src: local(""), url();
+}
+
+/*
+	CSS Переменные
+*/
+
+:root {
+	--font-family: '',sans-serif;
+	/*
+		Colors
+	*/
+	--
+	/*
+		CSS Grid Gap's
+	*/
+	--grid-col-gap-xs:8px;
+	--grid-col-gap-s:16px;
+	--grid-col-gap-m:24px;
+	--grid-col-gap-l:32px;
+	--grid-col-gap-xl:48px;
+	--grid-col-gap-2xl:64px;
+	--grid-col-gap-3xl:80px;
+	--grid-col-gap-4xl:112px;
+
+	--grid-row-gap-xs:8px;
+	--grid-row-gap-s:16px;
+	--grid-row-gap-m:24px;
+	--grid-row-gap-l:32px;
+	--grid-row-gap-xl:48px;
+	--grid-col-gap-2xl:64px;
+	--grid-col-gap-3xl:80px;
+	--grid-col-gap-4xl:112px;
+}
