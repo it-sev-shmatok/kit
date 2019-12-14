@@ -1,6 +1,7 @@
 ﻿@font-face {
 	font-family: ;
 	src: local(""), url();
+	font-display: swap;
 }
 
 /*
