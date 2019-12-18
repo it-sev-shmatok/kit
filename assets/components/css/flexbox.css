@@ -7,6 +7,11 @@
 	display: flex;
 }
 
+/* Элемент */
+.flex-item {
+	flex: 0 0 auto;
+}
+
 	/* Направление элементов */
 		/* По горизонтали (строкой) */
 		.flex-flow_row-nowrap 		{ flex-flow: row nowrap; }
@@ -58,9 +63,3 @@
 	.flex-align-content_stretch 		{ align-content: stretch; }
 	.flex-align-content_space-between 	{ align-content: space-between; }
 	.flex-align-content_space-around 	{ align-content: space-around; }
-
-/* Элемент */
-.flex-item {
-	color: black;
-	flex: 0 0 auto;
-}

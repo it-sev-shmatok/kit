@@ -1,17 +1,9 @@
-﻿/*Сброс стилей*/
-@import '/assets/components/css/reset.css';
-/*Переменные*/
+﻿@import '/assets/components/css/reset.css';
 @import '/assets/components/css/var.css';
-/*Основные*/
 @import '/assets/components/css/main.css';
-/*Сетка*/
 @import '/assets/components/css/grid.css';
 @import '/assets/components/css/flexbox.css';
-/*Отступы*/
 @import '/assets/components/css/modules.css';
-/*Элементы сайта*/
 @import '/assets/components/css/elements.css';
-/*Типография*/
 @import '/assets/components/css/typography.css';
-/*Мобильные устройства*/
 @import '/assets/components/css/mobile.css';
