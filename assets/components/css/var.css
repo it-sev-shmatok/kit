@@ -9,11 +9,12 @@
 */
 
 :root {
-	--font-family: '',sans-serif;
+	--font-family: '', sans-serif;
+	--headers-font-family: '', sans-serif;
 	/*
 		Colors
 	*/
-	
+
 	/*
 		CSS Grid Gap's
 	*/
