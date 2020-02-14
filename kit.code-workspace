@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.fontSize": 14,
+		"editor.wordWrap": "on", 
+		"terminal.integrated.fontSize": 14,
+		"editor.fontFamily": "'Roboto Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"explorer.decorations.badges": false
+	}
 }
