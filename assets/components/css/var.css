@@ -23,21 +23,21 @@
 	/*
 		CSS Grid Gap's
 	*/
-	--grid-col-gap-xs:8px;
-	--grid-col-gap-s:16px;
-	--grid-col-gap-m:24px;
-	--grid-col-gap-l:32px;
-	--grid-col-gap-xl:48px;
-	--grid-col-gap-2xl:64px;
-	--grid-col-gap-3xl:80px;
-	--grid-col-gap-4xl:112px;
+	--grid-col-gap-xs:	4px;
+	--grid-col-gap-s:	8px;
+	--grid-col-gap-m:	12px;
+	--grid-col-gap-l:	16px;
+	--grid-col-gap-xl:	24px;
+	--grid-col-gap-2xl:	32px;
+	--grid-col-gap-3xl:	40px;
+	--grid-col-gap-4xl:	56px;
 
-	--grid-row-gap-xs:8px;
-	--grid-row-gap-s:16px;
-	--grid-row-gap-m:24px;
-	--grid-row-gap-l:32px;
-	--grid-row-gap-xl:48px;
-	--grid-col-gap-2xl:64px;
-	--grid-col-gap-3xl:80px;
-	--grid-col-gap-4xl:112px;
+	--grid-row-gap-xs:	4px;
+	--grid-row-gap-s:	8px;
+	--grid-row-gap-m:	12px;
+	--grid-row-gap-l:	16px;
+	--grid-row-gap-xl:	24px;
+	--grid-col-gap-2xl:	32px;
+	--grid-col-gap-3xl:	40px;
+	--grid-col-gap-4xl:	56px;
 }
