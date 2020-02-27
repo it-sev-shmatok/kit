@@ -1,4 +1,26 @@
-﻿@media screen and (min-width:1088px) and (max-width:1220px) {
+﻿/*
+    Color Scheme
+*/
+    /* Dark Scheme */
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --text-color: #dbd7db;
+            --background-color: #161618;
+            --background-color-grey: #27272c;
+        }
+    }
+
+    /* Light Scheme */
+    @media (prefers-color-scheme: light) {
+
+    }
+
+    /* No Scheme */
+    @media (prefers-color-scheme: no-preference) {
+
+    }
+
+@media screen and (min-width:1088px) and (max-width:1220px) {
 
 }
 
