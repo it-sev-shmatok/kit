@@ -5,40 +5,47 @@
 }
 
 /*
-	CSS Переменные
+	CSS Variables
 */
 
 :root {
 	/* 
-		Main
+		Main Variables
 	*/
-	scroll-behavior: smooth;
-
 	--font-family: '', sans-serif;
-	--headers-font-family: '', sans-serif;
+    --headers-font-family: '', sans-serif;
+    --transition: .4s cubic-bezier(.23,1,.32,1);
+
+    /*
+        Margin and Padding's Variables
+    */
+    --margin-step: 4px;
+    --padding-step: 4px;
 	
 	/*
-		Colors
+		Colors Variables
 	*/
 
 	/*
-		CSS Grid Gap's
-	*/
-	--grid-col-gap-xs:	4px;
-	--grid-col-gap-s:	8px;
-	--grid-col-gap-m:	12px;
-	--grid-col-gap-l:	16px;
-	--grid-col-gap-xl:	24px;
-	--grid-col-gap-2xl:	32px;
-	--grid-col-gap-3xl:	40px;
-	--grid-col-gap-4xl:	56px;
+		CSS Grid Variables
+    */
+    --grid-step: 4px;
 
-	--grid-row-gap-xs:	4px;
-	--grid-row-gap-s:	8px;
-	--grid-row-gap-m:	12px;
-	--grid-row-gap-l:	16px;
-	--grid-row-gap-xl:	24px;
-	--grid-col-gap-2xl:	32px;
-	--grid-col-gap-3xl:	40px;
-	--grid-col-gap-4xl:	56px;
+	--grid-col-gap-xs:	var(--grid-step);
+	--grid-col-gap-s:	calc(var(--grid-step) * 2);
+	--grid-col-gap-m:	calc(var(--grid-step) * 3);
+	--grid-col-gap-l:	calc(var(--grid-step) * 4);
+	--grid-col-gap-xl:	calc(var(--grid-step) * 6);
+	--grid-col-gap-2xl:	calc(var(--grid-step) * 8);
+	--grid-col-gap-3xl:	calc(var(--grid-step) * 10);
+    --grid-col-gap-4xl:	calc(var(--grid-step) * 14);
+    
+	--grid-row-gap-xs:	var(--grid-step);
+	--grid-row-gap-s:	calc(var(--grid-step) * 2);
+	--grid-row-gap-m:	calc(var(--grid-step) * 3);
+	--grid-row-gap-l:	calc(var(--grid-step) * 4);
+	--grid-row-gap-xl:	calc(var(--grid-step) * 6);
+	--grid-row-gap-2xl:	calc(var(--grid-step) * 8);
+	--grid-row-gap-3xl:	calc(var(--grid-step) * 10);
+	--grid-row-gap-4xl:	calc(var(--grid-step) * 14);
 }

@@ -5,9 +5,10 @@
 	margin: 0;
 	padding: 0;
 	font-family: var(--headers-font-family), sans-serif;
+    scroll-margin-top: 6rem;
 	font-weight: 700;
 	line-height: 1.2;
-	color: inherit
+    color: inherit;
 }
 .h1, h1 {
 	font-size: 4.8rem;
