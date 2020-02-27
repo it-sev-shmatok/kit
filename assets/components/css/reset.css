@@ -4,27 +4,13 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-body {
-  margin: 0;
-}
-
 main {
   display: block;
-}
-
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
 }
 
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
-}
-
-a {
-  background-color: transparent;
 }
 
 abbr[title] {
@@ -109,10 +95,6 @@ button:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
-}
-
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
 }
 
 legend {
